@@ -1,0 +1,14 @@
+# Dio() quick Notes
+
+//dio functions
+
+[1] jsonEncode()  = objects to Json String
+[2] jsonDecode()  = objects to Json Map
+[3] fromJson()    = Json to class
+[4] toJson()      = class to Json
+
+
+    //clearing notelist for avoiding duplicate.
+    //we are calling everdata each time when the new note added, so when
+    //new added all list clearing and getting all from 0 to the screen from the database
+    //so we are clearing data that already there
